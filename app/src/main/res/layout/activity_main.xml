@@ -50,7 +50,7 @@
             android:layout_weight="10dp"
             android:text="Login"
             android:textColor="#090202"
-            android:textSize="24sp" />
+            android:textSize="28sp" />
 
         <EditText
             android:id="@+id/editText2"
@@ -71,7 +71,7 @@
             android:layout_weight="10dp"
             android:text="Senha"
             android:textColor="#090202"
-            android:textSize="24sp" />
+            android:textSize="28sp" />
 
         <EditText
             android:id="@+id/editText6"
@@ -91,7 +91,8 @@
             android:layout_marginRight="50dp"
             android:layout_weight="10dp"
             android:text="Enter"
-            android:textColor="#010908" />
+            android:textColor="#010908"
+            android:textSize="28sp"/>
 
     </LinearLayout>
 
