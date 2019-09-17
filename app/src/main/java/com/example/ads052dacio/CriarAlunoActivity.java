@@ -1,6 +1,8 @@
 package com.example.ads052dacio;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CriarAlunoActivity extends AppCompatActivity {
@@ -12,8 +14,11 @@ public class CriarAlunoActivity extends AppCompatActivity {
     }
 
     public void cadastarAlunoBtn(View view){
-        System.out.println("Olá. voce clicou no Botão Cadastrar.");
+        Intent i= new Intent(this,ListaAlunosActivity.class);
+        startActivity(i);
     }
+    
+
 
 
 }
